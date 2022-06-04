@@ -1083,3 +1083,34 @@ section.logo .logo__img {
     transform: translateX(0);
     opacity: 1;
 }
+
+@media screen and (max-width: 768px) {
+    .animation {
+        transition: transform 0.5s, opacity 0.5s;
+    }
+
+    .animation.left {
+        transform: none;
+        opacity: 1;
+    }
+
+    .animation.right {
+        transform: none;
+        opacity: 1;
+    }
+
+    .animation.top {
+        transform: none;
+        opacity: 1;
+    }
+
+    .animation.bottom {
+        transform: none;
+        opacity: 1;
+    }
+
+    .animation.active {
+        transform: none;
+        opacity: 1;
+    }
+}
