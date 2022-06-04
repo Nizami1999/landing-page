@@ -1053,8 +1053,6 @@ section.logo .logo__img {
     background-color: aquamarine;
 }
 
-/* Animation end */
-
 .animation {
     transition: transform 0.5s, opacity 0.5s;
 }
@@ -1114,3 +1112,5 @@ section.logo .logo__img {
         opacity: 1;
     }
 }
+
+/* Animation end */
