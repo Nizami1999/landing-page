@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles/style.css" />
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="header">
+        <nav class="navbar">
+            <div class="navbar__wrapper">
+                <a href="#"><img src="./images/logo-main.png" class="navbar__logo-hidden" alt="logo-hidden"></a>
+                <ul class="navbar__menu">
+                    <li><a class="active" href="#">Shop</a></li>
+                    <li><a href="#">Our process</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="line1"></span>
+                    <span class="line2"></span>
+                    <span class="line3"></span>
+                </div>
+                <a href="#"><img src="./images/logo-main.png" class="navbar__logo" alt="logo"></a>
+                <ul class="navbar__menu">
+                    <div class="navbar__menu__wrapper">
+                        <a href="#">
+                            <i class="fa-regular fa-face-smile"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </a>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Banner -->
+    <div class="banner">
+        <img src="./images/left.png" alt="banner-left" class="banner__left">
+        <img src="./images/right.png" alt="banner-right" class="banner__right">
+    </div>
+
+    <!-- Section -->
+    <section class="section container">
+        <div class="section__left">
+            <div class="section__text">
+                A modern generation of sofa.
+                Lorem ipsum dolor sit amet.
+            </div>
+            <button class="section__btn btn--orange">
+                saber más
+            </button>
+        </div>
+        <div class="section__right">
+            <div class="section__card scroll-reveal animation left">
+                <img src="./images/card1.png" alt="card-img" class="section__img">
+                <img src="./images/card-star.png" alt="card-img-star" class="section__img--star1">
+                <div class="section__card__title">
+                    Entrega en 24 h en tu casa
+                </div>
+                <div class="section__card_desc">
+                    El sofá en caja que cabe en tu ascensor.
+                </div>
+            </div>
+            <div class="section__card scroll-reveal animation left">
+                <img src="./images/card2.png" alt="card-img" class="section__img">
+                <img src="./images/card-star2.png" alt="card-img-star" class="section__img--star2">
+                <div class="section__card__title">
+                    Pruébalo 100 días
+                </div>
+                <div class="section__card_desc">
+                    Vamos a tu casa a recogerlo. lorem10
+                </div>
+            </div>
+            <div class="section__card scroll-reveal animation left">
+                <img src="./images/card3.png" alt="card-img" class="section__img">
+                <img src="./images/card-star3.png" alt="card-img-star" class="section__img--star3">
+                <div class="section__card__title">
+                    Fácil de montar
+                </div>
+                <div class="section__card_desc">
+                    No tools needed !
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Module -->
+    <section class="module container">
+        <h1 class="main-title scroll-reveal animation bottom">3 módulos. Infinitas posibilidades.</h1>
+        <div class="module__wrapper scroll-reveal animation right">
+            <img src="./images/img1.png" alt="module-img" class="module__img">
+            <svg width="135" height="135" viewBox="0 0 135 135" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M67.5 0C67.5 37.2791 37.2791 67.5 0 67.5C37.2791 67.5 67.5 97.7209 67.5 135C67.5 97.7209 97.7209 67.5 135 67.5C97.7209 67.5 67.5 37.2791 67.5 0Z"
+                    fill="white" />
+            </svg>
+            <div class="module__rate">
+                <div class="rate__top">
+                    <div class="rate__mark"><b>Excellent</b></div>
+                    <div class="rate__stars">
+                        <div class="rate__stars-item">
+                            <img class="star" src="./images/white-star.png" alt="star-white">
+                        </div>
+                        <div class="rate__stars-item">
+                            <img class="star" src="./images/white-star.png" alt="star-white">
+                        </div>
+                        <div class="rate__stars-item">
+                            <img class="star" src="./images/white-star.png" alt="star-white">
+                        </div>
+                        <div class="rate__stars-item">
+                            <img class="star" src="./images/white-star.png" alt="star-white">
+                        </div>
+                        <div class="rate__stars-item">
+                            <img class="star" src="./images/white-star.png" alt="star-white">
+                        </div>
+                    </div>
+                    <div class="rate__num">
+                        <b>4.9</b> out of 5
+                    </div>
+                </div>
+                <div class="rate__bottom">
+                    <b>123</b> reviews on
+                    <span class="rate__bottom__wrapper">
+                        <img class="star" src="./images/green-star.png" alt="star-green">
+                        <b>Trustpilot</b>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Bed -->
+    <section class="bed container">
+        <h1 class="main-title scroll-reveal animation bottom">Construye tu sofá perfecto. Modifícalo como quieras.
+            Empieza con...</h1>
+        <div class="bed__modify">
+            <div class="bed__colors">
+                <div class="bed__colors__title">
+                    Elige tu color
+                </div>
+                <div class="bed__colors__options">
+                    <div data-tab="green" class="b-nav-tab  b-nav-tab-1 active tooltip">
+                        <span class="tooltiptext">Green forest</span>
+                    </div>
+                    <div data-tab="darkblue" class="b-nav-tab b-nav-tab-2 tooltip">
+                        <span class="tooltiptext">Dark blue forest</span>
+                    </div>
+                    <div data-tab="blue" class="b-nav-tab b-nav-tab-3 tooltip">
+                        <span class="tooltiptext">Blue forest</span>
+                    </div>
+                    <div data-tab="grey" class="b-nav-tab b-nav-tab-4 tooltip">
+                        <span class="tooltiptext">Grey forest</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <button class="bed__btn btn--orange">Compra ahora</button>
+        </div>
+        <div class="bed__tabs scroll-reveal animation right">
+            <div id="green" class="b-tab active">
+                <div class="bed__wrapper">
+                    <div class="bed__left">
+                        <div class="bed__row">
+                            <div class="bed__wrapper__inside">
+                                <img src="./images/Green bed/bed1.png" alt="bed-color">
+                                <div class="bed__box">
+                                    <div class="bed__type">
+                                        3 Seater sofa
+                                    </div>
+                                    <div class="bed__price">
+                                        Desde 2500€
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bed__wrapper__inside">
+                                <img src="./images/Green bed/bed2.png" alt="bed-color">
+                                <div class="bed__box">
+                                    <div class="bed__type">
+                                        3 Seater sofa
+                                    </div>
+                                    <div class="bed__price">
+                                        Desde 2500€
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bed__row">
+                            <div class="bed__wrapper__inside">
+                                <img src="./images/Green bed/bed3.png" alt="bed-color">
+                                <div class="bed__box">
+                                    <div class="bed__type">
+                                        3 Seater sofa
+                                    </div>
+                                    <div class="bed__price">
+                                        Desde 2500€
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bed__wrapper__inside">
+                                <img src="./images/Green bed/bed4.png" alt="bed-color">
+                                <div class="bed__box">
+                                    <div class="bed__type">
+                                        3 Seater sofa
+                                    </div>
+                                    <div class="bed__price">
+                                        Desde 2500€
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bed__right">
+                        <div class="bed__wrapper__inside">
+                            <img src="./images/Green bed/bed5.png" alt="bed-color">
+                            <div class="bed__box">
+                                <div class="bed__type">
+                                    3 Seater sofa
+                                </div>
+                                <div class="bed__price">
+                                    Desde 2500€
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div id="darkblue" class="b-tab">
+                <div class="bed__wrapper">
+                    <div class="bed__left">
+                        <div class="bed__row">
+                            <div class="bed__wrapper__inside">
+                                <img src="./images/Green bed/bed1.png" alt="bed-color">
+                                <div class="bed__box">
+                                    <div class="bed__type">
+                                        3 Seater sofa
+                                    </div>
+                                    <div class="bed__price">
+                                        Desde 2500€
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bed__wrapper__inside">
+                                <img src="./images/Green bed/bed2.png" alt="bed-color">
+                                <div class="bed__box">
+                                    <div class="bed__type">
+                                        3 Seater sofa
+                                    </div>
+                                    <div class="bed__price">
+                                        Desde 2500€
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bed__row">
+                            <div class="bed__wrapper__inside">
+                                <img src="./images/Green bed/bed3.png" alt="bed-color">
+                                <div class="bed__box">
+                                    <div class="bed__type">
+                                        3 Seater sofa
+                                    </div>
+                                    <div class="bed__price">
+                                        Desde 2500€
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bed__wrapper__inside">
+                                <img src="./images/Green bed/bed4.png" alt="bed-color">
+                                <div class="bed__box">
+                                    <div class="bed__type">
+                                        3 Seater sofa
+                                    </div>
+                                    <div class="bed__price">
+                                        Desde 2500€
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bed__right">
+                        <div class="bed__wrapper__inside">
+                            <img src="./images/Green bed/bed5.png" alt="bed-color">
+                            <div class="bed__box">
+                                <div class="bed__type">
+                                    3 Seater sofa
+                                </div>
+                                <div class="bed__price">
+                                    Desde 2500€
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div id="blue" class="b-tab">
+                <div class="bed__wrapper">
+                    <div class="bed__left">
+                        <div class="bed__row">
+                            <div class="bed__wrapper__inside">
+                                <img src="./images/Green bed/bed1.png" alt="bed-color">
+                                <div class="bed__box">
+                                    <div class="bed__type">
+                                        3 Seater sofa
+                                    </div>
+                                    <div class="bed__price">
+                                        Desde 2500€
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bed__wrapper__inside">
+                                <img src="./images/Green bed/bed2.png" alt="bed-color">
+                                <div class="bed__box">
+                                    <div class="bed__type">
+                                        3 Seater sofa
+                                    </div>
+                                    <div class="bed__price">
+                                        Desde 2500€
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bed__row">
+                            <div class="bed__wrapper__inside">
+                                <img src="./images/Green bed/bed3.png" alt="bed-color">
+                                <div class="bed__box">
+                                    <div class="bed__type">
+                                        3 Seater sofa
+                                    </div>
+                                    <div class="bed__price">
+                                        Desde 2500€
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bed__wrapper__inside">
+                                <img src="./images/Green bed/bed4.png" alt="bed-color">
+                                <div class="bed__box">
+                                    <div class="bed__type">
+                                        3 Seater sofa
+                                    </div>
+                                    <div class="bed__price">
+                                        Desde 2500€
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bed__right">
+                        <div class="bed__wrapper__inside">
+                            <img src="./images/Green bed/bed5.png" alt="bed-color">
+                            <div class="bed__box">
+                                <div class="bed__type">
+                                    3 Seater sofa
+                                </div>
+                                <div class="bed__price">
+                                    Desde 2500€
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div id="grey" class="b-tab">
+                <div class="bed__wrapper">
+                    <div class="bed__left">
+                        <div class="bed__row">
+                            <div class="bed__wrapper__inside">
+                                <img src="./images/Green bed/bed1.png" alt="bed-color">
+                                <div class="bed__box">
+                                    <div class="bed__type">
+                                        3 Seater sofa
+                                    </div>
+                                    <div class="bed__price">
+                                        Desde 2500€
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bed__wrapper__inside">
+                                <img src="./images/Green bed/bed2.png" alt="bed-color">
+                                <div class="bed__box">
+                                    <div class="bed__type">
+                                        3 Seater sofa
+                                    </div>
+                                    <div class="bed__price">
+                                        Desde 2500€
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bed__row">
+                            <div class="bed__wrapper__inside">
+                                <img src="./images/Green bed/bed3.png" alt="bed-color">
+                                <div class="bed__box">
+                                    <div class="bed__type">
+                                        3 Seater sofa
+                                    </div>
+                                    <div class="bed__price">
+                                        Desde 2500€
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bed__wrapper__inside">
+                                <img src="./images/Green bed/bed4.png" alt="bed-color">
+                                <div class="bed__box">
+                                    <div class="bed__type">
+                                        3 Seater sofa
+                                    </div>
+                                    <div class="bed__price">
+                                        Desde 2500€
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bed__right">
+                        <div class="bed__wrapper__inside">
+                            <img src="./images/Green bed/bed5.png" alt="bed-color">
+                            <div class="bed__box">
+                                <div class="bed__type">
+                                    3 Seater sofa
+                                </div>
+                                <div class="bed__price">
+                                    Desde 2500€
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Advert -->
+    <section class="advert">
+        <img src="./images/imgadv.jpeg" alt="advert-img" class="advert__img">
+        <div class="advert__text scroll-reveal animation left">
+            Modular. Dynamic. Comfy. Modular. Dynamic. Comfy.
+        </div>
+    </section>
+
+    <!-- Section Cooperation -->
+    <section class="cooperation container">
+        <div class="cooperation__title">
+            Hablan de nosotros
+        </div>
+        <div class="cooperation__wrapper">
+            <a href="#"><img class="cooperation__img scroll-reveal animation top" src="./images/Cooperation/1.png"
+                    alt="cooperation-img"></a>
+            <a href="#"><img class="cooperation__img scroll-reveal animation top" src="./images/Cooperation/2.png"
+                    alt="cooperation-img"></a>
+            <a href="#"><img class="cooperation__img scroll-reveal animation top" src="./images/Cooperation/3.png"
+                    alt="cooperation-img"></a>
+            <a href="#"><img class="cooperation__img scroll-reveal animation top" src="./images/Cooperation/4.png"
+                    alt="cooperation-img"></a>
+            <a href="#"><img class="cooperation__img scroll-reveal animation top" src="./images/Cooperation/5.png"
+                    alt="cooperation-img"></a>
+        </div>
+    </section>
+
+    <!-- Section Footer -->
+    <footer class="footer container">
+        <div class="footer__left">
+            <div class="footer__newsletter">
+                <div class="footer__title">
+                    Join our mailing list
+                </div>
+                <div class="footer__wrapper">
+                    <input id="email" class="footer__input" placeholder="Enter Your Email" />
+                    <button onClick="fsubscribe()" class="footer__btn btn--orange">subscribe</button>
+                </div>
+                <div class="footer__sub-title">
+                    By subscribing, i accept the terms & conditions.
+                </div>
+            </div>
+            <div class="footer__links">
+                <ul class="footer__links__list">
+                    <span>Useful links</span>
+                    <li class="footer__links__list-item"><a href="#"> FAQs</a></li>
+                    <li class="footer__links__list-item"><a href="#"> Refer to a friend</a></li>
+                    <li class="footer__links__list-item"><a href="#"> Contact us</a></li>
+                    <li class="footer__links__list-item"><a href="#"> Work with us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__right">
+            <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+            <a href="#"> <i class="fa-brands fa-facebook"></i></a>
+            <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+        </div>
+    </footer>
+
+    <!-- Section Logo -->
+    <section class="logo container scroll-reveal animation right">
+        <img src="./images/logo.png" alt="logo-img" class="logo__img">
+    </section>
+
+    <!-- Section Copyright -->
+    <section class="copyright container">
+        <a href="#" class="copyright__left">
+            Copyright @Nubba 2022
+        </a>
+        <div class="copyright__right">
+            <a href="#" class="copyright__terms">
+                Terms
+            </a>
+            <a href="#" class="copyright__privacy">
+                Privacy policy
+            </a>
+        </div>
+    </section>
+
+    <!-- JS -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
